@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cv on ZIQIAN WEI</title>
+    <link>https://wei-ziqian.github.io/tags/cv/</link>
+    <description>Recent content in Cv on ZIQIAN WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Ziqian Wei</copyright>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://wei-ziqian.github.io/cv/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/cv/</guid>
+      <description>&lt;!-- ## A Self-Introduction
+Hi, please just call me Ziqian. I am a PhD student at the Education University of Hong Kong (2025 - present), supervised by Dr. Phil Duo Liu. 
+
+Before that, I have worked as a full-time research assistent for three years in Beijing and Hongkong (2022-2025). I recevied my Master&#39;s degree (Psychological Foundation) from South China Normal University in 2022 and Bachelor&#39;s degree (Psychology) from Jiangxi Normal University in 2019. 
+
+Currently, my research interests consist of two areas:
+
+1. **Literacy development and difficulties in Chinese children and adolescents**, such as (a) protective and risk cognitive, motivational, and environmental factors of word reading (character reading and reading fluency), (b) individual differences between children with reading difficulties and typically developed children, and (c) academic performance in children with symptoms of neurodevelopmental disorders (e.g., attention-deficit/hyperactivity disorder, autism, literacy and math learning disabilities). Basically, I include diverse variables acorss domains and utilize advanced statistical models (e.g., machine learning and network analysis) to try to capture the pattern more comprehensively to support children&#39;s literacy development and educational needs.
+
+2. **The cognitive mechanism of reading comprehension**. When children enter higher grades, reading comprehension become more important and can still be critical for early adults&#39;s learning and academic achievement (e.g., college students). I estimate students&#39; mental representation during comprehending complex texts via algorithms like Knowldge Structure, to understand the reading process and thereby inspire the design of interventions and strategies. 
+
+Outside academic work, I am an amateur comic/manga creater (and hope I can publish my works someday in the future). I enjoy playing the piano and eletric guitar (but mainly the piano these days because I don&#39;t have much time). I also enjoy playing video games (Genshin Impact, ZZZ, and other interesting games on PS5). I live in Shenzhen with my adorable cats, Bblythe and シャンプー. --&gt; 
+
+&lt;h2 class=&#34;relative group&#34;&gt;Education and Work Experience 
+    &lt;div id=&#34;education-and-work-experience&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#education-and-work-experience&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Education University of Hong Kong&lt;/strong&gt;, PhD student (2025-expected 2028)&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

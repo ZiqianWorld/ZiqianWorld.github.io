@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dairy on ZIQIAN WEI</title>
+    <link>https://wei-ziqian.github.io/tags/dairy/</link>
+    <description>Recent content in Dairy on ZIQIAN WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Ziqian Wei</copyright>
+    <lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/tags/dairy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>0006 占位文章：我在网络上看到的图片</title>
+      <link>https://wei-ziqian.github.io/posts/0006/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0006/</guid>
+      <description>网络图片。</description>
+      
+    </item>
+    
+    <item>
+      <title>0007 占位文章：很可爱啊</title>
+      <link>https://wei-ziqian.github.io/posts/0007/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0007/</guid>
+      <description>网络图片。</description>
+      
+    </item>
+    
+    <item>
+      <title>0005 占位文章：一张老照片</title>
+      <link>https://wei-ziqian.github.io/posts/0005/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0005/</guid>
+      <description>照片</description>
+      
+    </item>
+    
+    <item>
+      <title>0004 占位文章：我的头像</title>
+      <link>https://wei-ziqian.github.io/posts/0004/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0004/</guid>
+      <description>我的头像</description>
+      
+    </item>
+    
+    <item>
+      <title>0003 占位文章：BOX</title>
+      <link>https://wei-ziqian.github.io/posts/0003/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0003/</guid>
+      <description>BOX</description>
+      
+    </item>
+    
+    <item>
+      <title>0002 占位文章：天台</title>
+      <link>https://wei-ziqian.github.io/posts/0002/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0002/</guid>
+      <description>大厦的楼顶。</description>
+      
+    </item>
+    
+    <item>
+      <title>0001 占位文章：使用Hugo和Blowfish制作我的个人学术主页</title>
+      <link>https://wei-ziqian.github.io/posts/0001/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0001/</guid>
+      <description>我受到朋友的启发，决定使用 Hugo 和 Blowfish 创建一个个人网站。</description>
+      
+    </item>
+    
+  </channel>
+</rss>
