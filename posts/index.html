@@ -508,7 +508,7 @@
       <main id="main-content" class="grow">
         
   <div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-8 text-gray-900">Posts</h1>
+    <h1 class="mt-0 mb-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Posts</h1>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -697,11 +697,32 @@
         align-items: center;
       }
       
+       
+      .post-tags {
+        font-size: 0.75rem;
+        color: var(--secondary-text, #6b7280);
+        display: block;
+        min-width: 0;                
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .post-tags a {
+        color: var(--secondary-text, #6b7280);
+        text-decoration: none;
+      }
+      .post-tags a:hover {
+        color: var(--text-color, #333);
+      }
+      
       .post-card a {
         display: contents;
         text-decoration: none;
         cursor: pointer;   
       }
+       
+      .list-page-title {}
+
       
       .post-card {
         cursor: pointer;   
@@ -709,13 +730,37 @@
       
        
       @media (max-width: 768px) {
+        .list-page-title {}
+         
+        .container {
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+        }
         .year-posts-container {
-          padding: 0 2rem;
+          padding: 0 0.75rem;
+        }
+         
+        .year-posts-scroll {
+          gap: 0.75rem;
         }
         
         .post-card-wrapper {
-          width: 240px;
-          height: 360px;
+          width: 325px;
+          height: 475px;
+        }
+        
+         
+        .scroll-btn {
+          display: none !important;
+        }
+        
+         
+        .post-card:hover {
+          transform: none;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .post-card:hover img {
+          transform: none;
         }
         
         .scroll-btn {
@@ -734,7 +779,7 @@
          
         .post-card-content h2 {
           height: 2.4em;   
-          font-size: 1rem;     
+          font-size: 1.25rem;     
         }
         
         .post-meta {
@@ -745,23 +790,24 @@
       }
       
       @media (max-width: 480px) {
+        .list-page-title {}
         .year-posts-container {
-          padding: 0 1.5rem;
+          padding: 0 0.5rem;
         }
         
         .post-card-wrapper {
-          width: 200px;
-          height: 300px;
+          width: 288px;
+          height: 413px;
         }
         
         .year-posts-scroll {
-          gap: 1rem;
+          gap: 0.5rem;
         }
         
          
         .post-card-content h2 {
-          height: 2.2em;   
-          font-size: 0.9rem;   
+          height: 2.4em;   
+          font-size: 1.125rem;   
           line-height: 1.2;    
         }
         
@@ -775,21 +821,22 @@
           min-height: 1.3em;   
         }
         
-        .post-date, .post-views {
+        .post-date, .post-views, .post-tags {
           font-size: 0.7rem;   
         }
       }
       
       @media (max-width: 360px) {
          
+        .list-page-title {}
         .post-card-wrapper {
-          width: 180px;
-          height: 280px;
+          width: 263px;
+          height: 375px;
         }
         
         .post-card-content h2 {
-          height: 2em;     
-          font-size: 0.85rem;  
+          height: 2.4em;     
+          font-size: 1.0625rem;  
         }
         
         .post-card-content {
@@ -808,8 +855,8 @@
     
     
       <div class="year-section mb-12">
-        <h2 class="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-gray-200 pb-2">
-          2025年
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+          2025
         </h2>
         
         <div class="year-posts-container relative">
@@ -846,9 +893,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2025-07-07</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_c9b1ed5d75c0a4d7002d834817ced8f1">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -870,9 +915,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2025-07-06</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_25c2788a4ab74f8b7edd835e1473e7c2">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -894,9 +937,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2025-07-04</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_25f79b5ed2e4dd3cbf5008f380e75cf4">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -918,9 +959,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2025-07-03</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_b2e65700934b281ff295d03700813b24">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -942,9 +981,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2025-07-02</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_c1d67a6ddd3092de3426de1b2b498324">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -966,9 +1003,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2025-07-01</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_cfa9adb7d8c97d7c15e726fe4af8f16e">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -980,8 +1015,8 @@
       </div>
     
       <div class="year-section mb-12">
-        <h2 class="text-2xl font-bold mb-6 text-gray-800 border-b-2 border-gray-200 pb-2">
-          2024年
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+          2024
         </h2>
         
         <div class="year-posts-container relative">
@@ -1018,9 +1053,7 @@
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2024-01-01</time>
                         <span class="post-views text-xs text-gray-500">
-                          <i class="fas fa-eye mr-1"></i>
-                          <span id="busuanzi_value_page_pv_3c8bf46d429de3f35f678193020fcae8">0</span>
-                        </span>
+                           </span>
                       </div>
                     </div>
                   </a>
@@ -1033,9 +1066,6 @@
     
   </div>
 
-  
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  
   <script>
     function scrollYearPosts(year, direction) {
       const container = document.querySelector(`[data-year="${year}"]`);
