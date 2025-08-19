@@ -42,8 +42,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.83b517d101491ad186c50888853705ddb2f10da0ef712d0e6b13f0983e88774069907e5c38e9b18d7c40e1a0193aa7bdbda66e2a8622ac1af55129b85586c375.css"
-    integrity="sha512-g7UX0QFJGtGGxQiIhTcF3bLxDaDvcS0OaxPwmD6Id0BpkH5cOOmxjXxA4aAZOqe9vaZuKoYirBr1USm4VYbDdQ==">
+    href="/css/main.bundle.min.db65900be699feae4248a7c34e37a91a4c12dd38f2f63c4479276ec97659bccb27141b0cf9980e2f60a03cb492a7133fa3e81939a43d75174a284fd2abc68bed.css"
+    integrity="sha512-22WQC&#43;aZ/q5CSKfDTjepGkwS3Tjy9jxEeSduyXZZvMsnFBsM&#43;ZgOL2CgPLSSpxM/o&#43;gZOaQ9dRdKKE/Sq8aL7Q==">
 
   
   
@@ -140,7 +140,7 @@
     "keywords": ["cv","publication"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "336"
+    "wordCount": "343"
   }]
   </script>
 
@@ -629,7 +629,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-03T00:00:00&#43;00:00">3 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>336 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2025-07-03T00:00:00&#43;00:00">3 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>343 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -673,6 +673,190 @@
       
       
       
+      
+        <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+          <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#education-and-work-experience">Education and Work Experience</a></li>
+    <li><a href="#research-interests">Research Interests</a></li>
+    <li><a href="#selected-publications">Selected Publications</a></li>
+    <li><a href="#honours--awards">Honours &amp; Awards</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact-information">Contact information</a></li>
+  </ul>
+</nav>
+  </div>
+  </details>
+  <details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#education-and-work-experience">Education and Work Experience</a></li>
+    <li><a href="#research-interests">Research Interests</a></li>
+    <li><a href="#selected-publications">Selected Publications</a></li>
+    <li><a href="#honours--awards">Honours &amp; Awards</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact-information">Contact information</a></li>
+  </ul>
+</nav>
+  </div>
+  </details>
+
+  
+  <script>
+  (function () {
+    'use strict'
+
+    const ACTIVE_CLASS = 'active'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_NAV_SELECTOR = '#TableOfContents'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const collapseInactive = false
+
+    function getAllTocNavs() {
+      return [...document.querySelectorAll(TOC_NAV_SELECTOR)]
+    }
+
+    function getAllTocLinks() {
+      return getAllTocNavs().flatMap(nav => [...nav.querySelectorAll('a[href^="#"]')])
+    }
+
+    function setActiveLink(activeId) {
+      const links = getAllTocLinks()
+      let activeLinks = []
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+        if (isActive) activeLinks.push(link)
+      })
+
+      if (collapseInactive && activeLinks.length) {
+        getAllTocNavs().forEach(toc => {
+          const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+          if (!activeLink) return
+          let el = activeLink
+          while (el && el !== toc) {
+            if (el.tagName === 'UL') el.style.display = ''
+            if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+            el = el.parentElement
+          }
+        })
+      }
+    }
+
+    function initTOC() {
+      const tocs = getAllTocNavs()
+      if (!tocs.length) return
+
+      if (collapseInactive) {
+        tocs.forEach(toc => {
+          toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+        })
+      }
+
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)].filter(a => a.id)
+
+      if ('IntersectionObserver' in window) {
+        let activeId = null
+        const observer = new IntersectionObserver(entries => {
+          const visible = entries
+            .filter(e => e.isIntersecting)
+            .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
+          if (visible.length) {
+            const id = visible[0].target.id
+            if (id && id !== activeId) {
+              activeId = id
+              setActiveLink(activeId)
+            }
+          } else {
+            let nearestId = activeId
+            let minDelta = Infinity
+            anchors.forEach(a => {
+              const top = a.getBoundingClientRect().top
+              if (top <= 80 && Math.abs(top) < minDelta) {
+                minDelta = Math.abs(top)
+                nearestId = a.id
+              }
+            })
+            if (nearestId && nearestId !== activeId) {
+              activeId = nearestId
+              setActiveLink(activeId)
+            }
+          }
+        }, { rootMargin: '0px 0px -66% 0px', threshold: [0, 1] })
+
+        anchors.forEach(a => observer.observe(a))
+
+        window.addEventListener('hashchange', () => {
+          const id = decodeURIComponent(location.hash.replace('#', ''))
+          if (id) setActiveLink(id)
+        }, { passive: true })
+
+        const initial = decodeURIComponent(location.hash.replace('#', '')) || anchors[0]?.id
+        if (initial) setActiveLink(initial)
+      } else {
+        let ticking = false
+        function onScroll() {
+          if (ticking) return
+          ticking = true
+          requestAnimationFrame(() => {
+            let threshold = window.scrollY + window.innerHeight * 0.33
+            let id = ''
+            const tocIds = new Set(getAllTocLinks().map(link => link.getAttribute('href').substring(1)))
+            for (let i = anchors.length - 1; i >= 0; i--) {
+              const top = anchors[i].getBoundingClientRect().top + window.scrollY
+              if (top <= threshold && tocIds.has(anchors[i].id)) {
+                id = anchors[i].id
+                break
+              }
+            }
+            if (!id) id = anchors.find(a => tocIds.has(a.id))?.id || ''
+            if (id) setActiveLink(id)
+            ticking = false
+          })
+        }
+        window.addEventListener('scroll', onScroll, { passive: true })
+        window.addEventListener('hashchange', onScroll, { passive: true })
+        onScroll()
+      }
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+  </script>
+  
+
+
+
+            
+            
+          </div>
+        </div>
       
 
 
@@ -734,22 +918,22 @@ Outside academic work, I am an amateur comic/manga creater (and hope I can publi
     </span>        
     
 </h2>
-<ol>
+<ul>
 <li>
-<p>Li, Q., <strong>Wei, Z</strong>., Xu, Z., Zhang, S., &amp; Liu, D. (2025). Psychological and ecological factors predict reading interest in Chinese primary school children: A two-year investigation. <em>Reading and Writing</em>, Online First. <a
+<p><strong>Wei, Z</strong>., Wang, L., Xu, Z., Luo, L., Zhang, X., Li, N., &amp; Liu, D. (2025). The global and local pattern of reading-related cognitive and ecological factors in Chinese first-grade children: A cross-sectional network analysis. <em>Journal of Learning Disabilities</em>, <em>58</em>(5), 390–406. <a
+  href="https://doi.org/10.1177/00222194241283198"
+    target="_blank"
+  >Link</a></p>
+</li>
+<li>
+<p>Li, Q., <strong>Wei, Z</strong>., Xu, Z., Zhang, S., &amp; Liu, D. (2025). Psychological and ecological factors predict reading interest in Chinese primary school children: A two-year investigation. <em>Reading and Writing</em>, online first. <a
   href="https://doi.org/10.1007/s11145-025-10687-z"
     target="_blank"
   >Link</a></p>
 </li>
 <li>
-<p><strong>Wei, Z</strong>., Yin, S., Clariana, R. B., &amp; Chen, X. (2025). The influence of pre-reading purpose and extra-textual networks with summary writing on multiple document concept network integration: A replication of Wei et al. (2024). <em>Educational Technology Research and Development</em>, Online First. <a
+<p><strong>Wei, Z</strong>., Yin, S., Clariana, R. B., &amp; Chen, X. (2025). The influence of pre-reading purpose and extra-textual networks with summary writing on multiple document concept network integration: A replication of Wei et al. (2024). <em>Educational Technology Research and Development</em>, online first. <a
   href="https://doi.org/10.1007/s11423-025-10508-8"
-    target="_blank"
-  >Link</a></p>
-</li>
-<li>
-<p><strong>Wei, Z</strong>., Wang, L., Xu, Z., Luo, L., Zhang, X., Li, N., &amp; Liu, D. (2024). The global and local pattern of reading-related cognitive and ecological factors in Chinese first-grade children: A cross-sectional network analysis. <em>Journal of Learning Disabilities</em>, Online First. <a
-  href="https://doi.org/10.1177/00222194241283198"
     target="_blank"
   >Link</a></p>
 </li>
@@ -759,7 +943,7 @@ Outside academic work, I am an amateur comic/manga creater (and hope I can publi
     target="_blank"
   >Link</a></p>
 </li>
-</ol>
+</ul>
 <!-- Ad Hoc Reviewer: Acta Psychologica.  --> 
 <!-- ## Grant  --> 
 <!-- Co-investigator, *The examination of a global connectivity weakness hypothesis for children who are struggling with learning*. PI: Phil Duo Liu, reference NO. xxxxxx. Departmental Research Seed Fund, HK$ xxxxx.  --> 
@@ -904,6 +1088,30 @@ Outside academic work, I am an amateur comic/manga creater (and hope I can publi
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+      
+      
+        
+          
+          
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
+        <ul class="flex list-none flex-col sm:flex-row">
+          
+            <li class=" flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0 ">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="/tags/"
+                title="Tags">
+                
+                Tags
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
     
   
   <div class="flex items-center justify-between">
