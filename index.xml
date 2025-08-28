@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Ziqian Wei</copyright>
-    <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Building an academic homepage using AI</title>
+      <title>My Profile for the FEHD Website</title>
+      <link>https://wei-ziqian.github.io/posts/0001/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0001/</guid>
+      <description>My profile for the FEHD website.</description>
+      
+    </item>
+    
+    <item>
+      <title>Building an Academic Homepage using AI</title>
       <link>https://wei-ziqian.github.io/posts/0000/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       

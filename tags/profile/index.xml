@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profile on ZIQIAN WEI</title>
+    <link>https://wei-ziqian.github.io/tags/profile/</link>
+    <description>Recent content in Profile on ZIQIAN WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Ziqian Wei</copyright>
+    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/tags/profile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Profile for the FEHD Website</title>
+      <link>https://wei-ziqian.github.io/posts/0001/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/posts/0001/</guid>
+      <description>My profile for the FEHD website.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
