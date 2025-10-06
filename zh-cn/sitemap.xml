@@ -3,8 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/categories/archive/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/categories/archive/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/categories/archive/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/tags/archive/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/archive/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/archive/"
+    />
+  </url>
+  <url>
     <loc>https://wei-ziqian.github.io/zh-cn/tags/bblythe/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -20,7 +52,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/zh-cn/categories/blog/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,7 +68,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/zh-cn/categories/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -51,8 +83,24 @@
     />
   </url>
   <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/tags/game/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/game/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/game/"
+    />
+  </url>
+  <url>
     <loc>https://wei-ziqian.github.io/zh-cn/posts/0001/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -67,8 +115,40 @@
     />
   </url>
   <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/tags/livehouse/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/livehouse/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/livehouse/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/tags/movie/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/movie/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/movie/"
+    />
+  </url>
+  <url>
     <loc>https://wei-ziqian.github.io/zh-cn/tags/photograph/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -84,7 +164,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/zh-cn/categories/post/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -100,7 +180,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/zh-cn/posts/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -116,7 +196,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/zh-cn/tags/profile/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -132,7 +212,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/zh-cn/tags/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -147,8 +227,40 @@
     />
   </url>
   <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/categories/thoguhts/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/categories/thoguhts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/categories/thoguhts/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/zh-cn/tags/thoughts/</loc>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/thoughts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/thoughts/"
+    />
+  </url>
+  <url>
     <loc>https://wei-ziqian.github.io/zh-cn/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link

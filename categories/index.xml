@@ -7,12 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Ziqian Wei</copyright>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Archive</title>
+      <link>https://wei-ziqian.github.io/categories/archive/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/archive/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Blog</title>
       <link>https://wei-ziqian.github.io/categories/blog/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/categories/blog/</guid>
       <description></description>
@@ -22,9 +32,19 @@
     <item>
       <title>Post</title>
       <link>https://wei-ziqian.github.io/categories/post/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/categories/post/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thoguhts</title>
+      <link>https://wei-ziqian.github.io/categories/thoguhts/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/thoguhts/</guid>
       <description></description>
       
     </item>

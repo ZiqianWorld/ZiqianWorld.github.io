@@ -7,12 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Ziqian Wei</copyright>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Archive</title>
+      <link>https://wei-ziqian.github.io/tags/archive/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/tags/archive/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Bblythe</title>
       <link>https://wei-ziqian.github.io/tags/bblythe/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/tags/bblythe/</guid>
       <description></description>
@@ -20,9 +30,39 @@
     </item>
     
     <item>
+      <title>Game</title>
+      <link>https://wei-ziqian.github.io/tags/game/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/tags/game/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Livehouse</title>
+      <link>https://wei-ziqian.github.io/tags/livehouse/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/tags/livehouse/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Movie</title>
+      <link>https://wei-ziqian.github.io/tags/movie/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/tags/movie/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Photograph</title>
       <link>https://wei-ziqian.github.io/tags/photograph/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/tags/photograph/</guid>
       <description></description>
@@ -32,9 +72,19 @@
     <item>
       <title>Profile</title>
       <link>https://wei-ziqian.github.io/tags/profile/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/tags/profile/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>https://wei-ziqian.github.io/tags/thoughts/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/tags/thoughts/</guid>
       <description></description>
       
     </item>
@@ -70,39 +120,9 @@
     </item>
     
     <item>
-      <title>Ipsum</title>
-      <link>https://wei-ziqian.github.io/tags/ipsum/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/tags/ipsum/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Lorem</title>
-      <link>https://wei-ziqian.github.io/tags/lorem/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/tags/lorem/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Post</title>
-      <link>https://wei-ziqian.github.io/tags/post/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/tags/post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Cv</title>
       <link>https://wei-ziqian.github.io/tags/cv/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/tags/cv/</guid>
       <description></description>
@@ -112,7 +132,7 @@
     <item>
       <title>Publication</title>
       <link>https://wei-ziqian.github.io/tags/publication/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/tags/publication/</guid>
       <description></description>
