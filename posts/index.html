@@ -44,8 +44,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.db65900be699feae4248a7c34e37a91a4c12dd38f2f63c4479276ec97659bccb27141b0cf9980e2f60a03cb492a7133fa3e81939a43d75174a284fd2abc68bed.css"
-    integrity="sha512-22WQC&#43;aZ/q5CSKfDTjepGkwS3Tjy9jxEeSduyXZZvMsnFBsM&#43;ZgOL2CgPLSSpxM/o&#43;gZOaQ9dRdKKE/Sq8aL7Q==">
+    href="/css/main.bundle.min.19fe85f64b6950008d02e55cea3db9c8bdb94f20ccbb85032760b5dff99a7411709808d0c88d8bed5b5bc543054e17b93d8f4159a105623bd5aea7960ecaac31.css"
+    integrity="sha512-Gf6F9ktpUACNAuVc6j25yL25TyDMu4UDJ2C13/madBFwmAjQyI2L7VtbxUMFThe5PY9BWaEFYjvVrqeWDsqsMQ==">
 
   
   
@@ -76,8 +76,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.98bb8ce8f123e03c4d2171eeec151dd404b5c476beb5ef1068d0e8b1a2afb923065e6552fc14b2d867c85ee4bd8529a43193f729f874d3908517ba03b5d1cc57.js"
-      integrity="sha512-mLuM6PEj4DxNIXHu7BUd1AS1xHa&#43;te8QaNDosaKvuSMGXmVS/BSy2GfIXuS9hSmkMZP3Kfh005CFF7oDtdHMVw=="
+      src="/js/main.bundle.min.6678280d1c4247562a1c27f798949edaae6e0a719f8e4cabd3f91ffcf69d116e87f43149281d4f56727637fbf52fd6cb2edee45d16644a70e4efc27de6d7d6b1.js"
+      integrity="sha512-ZngoDRxCR1YqHCf3mJSe2q5uCnGfjkyr0/kf/PadEW6H9DFJKB1PVnJ2N/v1L9bLLt7kXRZkSnDk78J95tfWsQ=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -508,31 +508,52 @@
       <main id="main-content" class="grow">
         
   <div class="container mx-auto px-4 py-8">
-    <h1 class="mt-0 mb-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Posts</h1>
-    
+    <h1 class="mt-0 mb-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Posts
+    </h1>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     
     <style>
        
       .year-section {
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
       }
       
       .year-section h2 {
         color: var(--text-color, #333);
         border-bottom-color: var(--card-border-color, #e5e7eb);
+        margin-bottom: 0rem;  
       }
       
        
       .year-posts-container {
         position: relative;
-        padding: 0 3rem;  
+        margin-left: calc(-1rem);  
+         
+        margin-right: 0;
+        width: calc(100% + 1rem);
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      
+       
+      @media (max-width: 768px) {
+        .year-posts-container {
+          margin-right: calc(-50vw + 50%);
+          width: calc(100% + 50vw - 50% + 1rem);
+          padding-right: 0;
+        }
+      }
+      
+       
+      h1.mt-0.mb-6.text-4xl.font-extrabold {
+        margin-bottom: 2.5rem !important;  
       }
       
       .year-posts-scroll {
         display: flex;
-        gap: 1.5rem;
+        gap: 1rem;  
         overflow-x: auto;
         overflow-y: hidden;
         scroll-behavior: smooth;
@@ -551,56 +572,43 @@
       }
       
        
-      .post-card-wrapper {
-        flex: 0 0 auto;
-        width: 280px;  
-        height: 400px;  
+      .scroll-buttons {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 0rem;
+        margin-left: 0rem;  
       }
       
-       
-      .scroll-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 10;
-        background: var(--card-content-bg, rgba(255, 255, 255, 0.9));
-        color: var(--text-color, #333);
-        border: 1px solid var(--card-border-color, #e5e7eb);
+      .scroll-button {
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
-        width: 48px;
-        height: 48px;
+        background: var(--card-bg, #f9fafb);
+        border: 2px solid var(--card-border-color, #e5e7eb);
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
         transition: all 0.2s ease;
-        opacity: 0;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(8px);
-      }
-      
-      .year-posts-container:hover .scroll-btn {
-        opacity: 1;
-      }
-      
-      .scroll-btn:hover {
-        background: var(--card-content-bg, #ffffff);
+        font-size: 1.2rem;
         color: var(--text-color, #333);
-        transform: translateY(-50%) scale(1.1);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-        border-color: var(--primary-color, #3b82f6);
+        user-select: none;
       }
       
-      .scroll-btn:active {
-        transform: translateY(-50%) scale(0.95);
+      .scroll-button:hover {
+        background: var(--card-border-color, #e5e7eb);
+        transform: scale(1.05);
       }
       
-      .scroll-left {
-        left: 0;
+      .scroll-button:active {
+        transform: scale(0.95);
       }
       
-      .scroll-right {
-        right: 0;
+       
+      .post-card-wrapper {
+        flex: 0 0 auto;
+        width: 325px;  
+        height: 475px;  
       }
       
        
@@ -610,20 +618,20 @@
         background: var(--card-bg, #f9fafb);
         border-radius: 0.75rem;
         overflow: hidden;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        box-shadow: none;
         display: flex;
         flex-direction: column;
         color: var(--text-color, #333);
-        border: 1px solid var(--card-border-color, #e5e7eb);
+        border: 2px solid var(--card-border-color, black);
       }
       
       .post-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        transform: translateY(0px);
+        box-shadow: none;  
       }
       
       .post-card .image-container {
-        height: 75%;  
+        height: 80%;  
         overflow: hidden;
         flex: 0 0 auto;
       }
@@ -638,11 +646,11 @@
       }
       
       .post-card:hover img {
-        transform: scale(1.05);
+        transform: scale(1.25);
       }
       
       .post-card-content {
-        padding: 1rem;
+        padding: 1.2rem 1rem 1rem 1rem;  
         border-top: 1px solid var(--card-border-color, #e5e7eb);
         background: var(--card-content-bg, #ffffff);
         flex-grow: 1;
@@ -651,47 +659,116 @@
       }
       
       .post-card-content h2 {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;   
-        -webkit-box-orient: vertical;
-        color: var(--text-color, #333);
-        font-weight: 600;
-        margin-bottom: 0.5;   
-        margin-top: 0rem;   
-        cursor: pointer;
-        line-height: 1.3;   
-        overflow: hidden;
-        height: 2.6em;   
          
-      }
-      
-      .post-summary {
-        color: var(--secondary-text, #6b7280);
-        font-size: 0.875rem;
-        margin-bottom: 0.5rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        color: var(--text-color, #333);
+        font-weight: 700;  
+        margin-bottom: -1rem;  
+        margin-top: 0;
+        cursor: pointer;
+        line-height: 1;  
+        font-size: 1rem;  
+        height: auto;  
       }
       
+      .post-card:hover .post-card-content {
+        background-color: rgba(75, 85, 99, 0.1);  
+        transition: all 0.1s ease;
+      }
+
+      .post-card:hover .post-card-content h2 {
+        transform: scale(1);  
+        transform-origin: left top;
+      }
+
+      .post-card:hover .post-date {
+        color: #1f2937;  
+        transform: scale(1);
+      }
+
+      .post-card:hover .category-pill,
+      .post-card:hover .tag-pill {
+        transform: scale(1);  
+        background-color: rgba(0, 0, 0, 0.08);  
+      }
+
       .post-meta {
         margin-top: auto;   
-        margin-bottom: 0.5rem;   
+        margin-bottom: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 1.5em;   
-        min-height: 1.5em;   
+        height: auto;  
+        min-height: auto;
       }
       
       .post-date {
-        font-size: 0.75rem;
+        font-size: 5rem;  
         color: var(--secondary-text, #6b7280);
+        font-weight: 500;  
       }
       
+       
+       
+      .category-pill, .tag-pill {
+        display: inline-block;
+        padding: 0.25rem 0.4rem;  
+        font-size: 0.6rem;  
+        font-weight: 500;
+        border-radius: 9999px;
+        white-space: nowrap;
+        flex-shrink: 0;
+        line-height: 1.2;  
+      }
+
+      .category-pill {
+        background-color: rgba(209, 213, 219, 0.15);
+        color: rgba(107, 114, 128);
+        border: 1px solid rgba(209, 213, 219, 0.4);
+      }
+
+       
+      .category-pill:last-child:contains("+") {
+        background-color: rgba(107, 114, 128, 0.1);
+        color: rgb(107, 114, 128);
+        border: 1px solid rgba(107, 114, 128, 0.2);
+      }
+
+       
+      .post-meta {
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        gap: 0.5rem;  
+      }
+
+      .post-date {
+        font-size: 0.875rem;
+        color: var(--secondary-text, #6b7280);
+        font-weight: 500;
+        flex-shrink: 0;  
+        white-space: nowrap;
+      }
+
+      .post-categories, .post-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.25rem;
+        max-width: 65%;  
+        overflow: hidden;
+      }
+
       .post-views {
-        font-size: 0.75rem;
+        font-size: 1rem;  
         color: var(--secondary-text, #6b7280);
         display: flex;
         align-items: center;
@@ -699,7 +776,7 @@
       
        
       .post-tags {
-        font-size: 0.75rem;
+        font-size: 1rem;  
         color: var(--secondary-text, #6b7280);
         display: block;
         min-width: 0;                
@@ -711,170 +788,15 @@
         color: var(--secondary-text, #6b7280);
         text-decoration: none;
       }
-      .post-tags a:hover {
-        color: var(--text-color, #333);
-      }
       
       .post-card a {
         display: contents;
         text-decoration: none;
         cursor: pointer;   
       }
-       
-      .list-page-title {}
-
       
       .post-card {
         cursor: pointer;   
-      }
-      
-       
-      @media (min-width: 1024px) {
-         
-        .year-posts-container {
-          padding: 0 2rem;
-        }
-         
-        .year-posts-scroll {
-          gap: 1.5rem;
-        }
-        .post-card-wrapper {
-          width: calc((100% - 3rem) / 3);
-        }
-        .scroll-btn {
-          width: 40px;
-          height: 40px;
-        }
-        .scroll-btn svg {
-          width: 20px;
-          height: 20px;
-        }
-        .scroll-left {
-          left: 0.5rem;
-        }
-        .scroll-right {
-          right: 0.5rem;
-        }
-      }
-      @media (max-width: 768px) {
-        .list-page-title {}
-         
-        .container {
-          padding-left: 0.75rem;
-          padding-right: 0.75rem;
-        }
-        .year-posts-container {
-          padding: 0 0.75rem;
-        }
-         
-        .year-posts-scroll {
-          gap: 0.75rem;
-        }
-        
-        .post-card-wrapper {
-          width: 325px;
-          height: 475px;
-        }
-        
-         
-        .scroll-btn {
-          display: none !important;
-        }
-        
-         
-        .post-card:hover {
-          transform: none;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-        .post-card:hover img {
-          transform: none;
-        }
-        
-        .scroll-btn {
-          width: 40px;
-          height: 40px;
-          background: var(--card-content-bg, rgba(255, 255, 255, 0.9));
-          color: var(--text-color, #333);
-          border-color: var(--card-border-color, #e5e7eb);
-        }
-        
-        .scroll-btn svg {
-          width: 20px;
-          height: 20px;
-        }
-        
-         
-        .post-card-content h2 {
-          height: 2.4em;   
-          font-size: 1.25rem;     
-        }
-        
-        .post-meta {
-          margin-bottom: 0.5rem;   
-          height: 1.4em;   
-          min-height: 1.4em;   
-        }
-      }
-      
-      @media (max-width: 480px) {
-        .list-page-title {}
-        .year-posts-container {
-          padding: 0 0.5rem;
-        }
-        
-        .post-card-wrapper {
-          width: 288px;
-          height: 413px;
-        }
-        
-        .year-posts-scroll {
-          gap: 0.5rem;
-        }
-        
-         
-        .post-card-content h2 {
-          height: 2.4em;   
-          font-size: 1.125rem;   
-          line-height: 1.2;    
-        }
-        
-        .post-card-content {
-          padding: 0.75rem;    
-        }
-        
-        .post-meta {
-          margin-bottom: 0.5rem;   
-          height: 1.3em;   
-          min-height: 1.3em;   
-        }
-        
-        .post-date, .post-views, .post-tags {
-          font-size: 0.7rem;   
-        }
-      }
-      
-      @media (max-width: 360px) {
-         
-        .list-page-title {}
-        .post-card-wrapper {
-          width: 263px;
-          height: 375px;
-        }
-        
-        .post-card-content h2 {
-          height: 2.4em;     
-          font-size: 1.0625rem;  
-        }
-        
-        .post-card-content {
-          padding: 0.5rem;     
-        }
-        
-        .post-meta {
-          margin-bottom: 0.5rem;  
-          height: 1.2em;   
-          min-height: 1.2em;   
-        }
       }
     </style>
     
@@ -883,44 +805,35 @@
     
       <div class="year-section mb-12">
         <h2 class="text-3xl font-bold mb-6 text-gray-800">
-          2025
+          2026
         </h2>
         
         <div class="year-posts-container relative">
-          
-          <button class="scroll-btn scroll-left absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-600 hover:text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200 opacity-0 group-hover:opacity-100" 
-                  onclick="scrollYearPosts('2025', 'left')">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-            </svg>
-          </button>
-          
-          
-          <button class="scroll-btn scroll-right absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-600 hover:text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200 opacity-0 group-hover:opacity-100" 
-                  onclick="scrollYearPosts('2025', 'right')">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </button>
-          
-          <div class="year-posts-scroll group" data-year="2025">
+          <div class="year-posts-scroll group" data-year="2026" id="scroll-2026">
             
               <article class="post-card-wrapper animate__animated animate__fadeIn" 
                        style="animation-delay: 0s;">
                 <div class="post-card">
-                  <a href="/posts/0001/" class="block">
+                  <a href="/posts/0007_the_house_murders-copy/" class="block">
                     
                       <div class="image-container">
-                        <img src="/img/IMG_4138.jpeg" alt="Life Archive September 2025" loading="lazy">
+                        <img src="/img/decagon.png" alt="阅读綾辻行人的「馆」系列" loading="lazy">
                       </div>
                     
                     <div class="post-card-content">
-                      <h2 class="font-semibold text-lg">Life Archive September 2025</h2>
+                      <h2 class="font-semibold text-lg">阅读綾辻行人的「馆」系列</h2>
                       
                       <div class="post-meta flex justify-between items-center">
-                        <time class="post-date">2025-09-23</time>
-                        <span class="post-views text-xs text-gray-500">
-                           </span>
+                        <time class="post-date">2026-01-06</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">reading</span>
+                            
+                            
+                          </div>
+                        
                       </div>
                     </div>
                   </a>
@@ -930,19 +843,26 @@
               <article class="post-card-wrapper animate__animated animate__fadeIn" 
                        style="animation-delay: 0.1s;">
                 <div class="post-card">
-                  <a href="/posts/0000/" class="block">
+                  <a href="/posts/0006_jan2026/" class="block">
                     
                       <div class="image-container">
-                        <img src="/img/20250819131344.jpeg" alt="Building an Academic Homepage using AI" loading="lazy">
+                        <img src="/img/decagon.png" alt="Sisyphus no longer feels nothingness" loading="lazy">
                       </div>
                     
                     <div class="post-card-content">
-                      <h2 class="font-semibold text-lg">Building an Academic Homepage using AI</h2>
+                      <h2 class="font-semibold text-lg">Sisyphus no longer feels nothingness</h2>
                       
                       <div class="post-meta flex justify-between items-center">
-                        <time class="post-date">2025-08-19</time>
-                        <span class="post-views text-xs text-gray-500">
-                           </span>
+                        <time class="post-date">2026-01-05</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">life archive</span>
+                            
+                            
+                          </div>
+                        
                       </div>
                     </div>
                   </a>
@@ -951,67 +871,293 @@
             
           </div>
         </div>
+        
+        
+        <div class="scroll-buttons">
+          <button class="scroll-button scroll-left" data-target="scroll-2026">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="scroll-button scroll-right" data-target="scroll-2026">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
       </div>
     
-  </div>
-
-  <script>
-    function scrollYearPosts(year, direction) {
-      const container = document.querySelector(`[data-year="${year}"]`);
-      if (!container) return;
-      
-      const scrollAmount = 400; 
-      const currentScroll = container.scrollLeft;
-      
-      if (direction === 'left') {
-        container.scrollTo({
-          left: currentScroll - scrollAmount,
-          behavior: 'smooth'
-        });
-      } else {
-        container.scrollTo({
-          left: currentScroll + scrollAmount,
-          behavior: 'smooth'
-        });
-      }
-    }
-
+      <div class="year-section mb-12">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+          2025
+        </h2>
+        
+        <div class="year-posts-container relative">
+          <div class="year-posts-scroll group" data-year="2025" id="scroll-2025">
+            
+              <article class="post-card-wrapper animate__animated animate__fadeIn" 
+                       style="animation-delay: 0s;">
+                <div class="post-card">
+                  <a href="/posts/0005_the_1st_semester/" class="block">
+                    
+                      <div class="image-container">
+                        <img src="/img/IMG_4752.jpeg" alt="My First Semester at EdUHK" loading="lazy">
+                      </div>
+                    
+                    <div class="post-card-content">
+                      <h2 class="font-semibold text-lg">My First Semester at EdUHK</h2>
+                      
+                      <div class="post-meta flex justify-between items-center">
+                        <time class="post-date">2025-12-22</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">learning</span>
+                             
+                              <span class="category-pill">research</span>
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            
+              <article class="post-card-wrapper animate__animated animate__fadeIn" 
+                       style="animation-delay: 0.1s;">
+                <div class="post-card">
+                  <a href="/posts/0004_2025nov_dec/" class="block">
+                    
+                      <div class="image-container">
+                        <img src="/img/IMG_6508.jpeg" alt="A Day to Disneyland" loading="lazy">
+                      </div>
+                    
+                    <div class="post-card-content">
+                      <h2 class="font-semibold text-lg">A Day to Disneyland</h2>
+                      
+                      <div class="post-meta flex justify-between items-center">
+                        <time class="post-date">2025-12-15</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">life archive</span>
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            
+              <article class="post-card-wrapper animate__animated animate__fadeIn" 
+                       style="animation-delay: 0.2s;">
+                <div class="post-card">
+                  <a href="/posts/0003_2025oct/" class="block">
+                    
+                      <div class="image-container">
+                        <img src="/img/IMG_5307.jpeg" alt="Thinking about Ultimate Questions" loading="lazy">
+                      </div>
+                    
+                    <div class="post-card-content">
+                      <h2 class="font-semibold text-lg">Thinking about Ultimate Questions</h2>
+                      
+                      <div class="post-meta flex justify-between items-center">
+                        <time class="post-date">2025-10-15</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">life archive</span>
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            
+              <article class="post-card-wrapper animate__animated animate__fadeIn" 
+                       style="animation-delay: 0.30000000000000004s;">
+                <div class="post-card">
+                  <a href="/posts/0002_2025sep/" class="block">
+                    
+                      <div class="image-container">
+                        <img src="/img/IMG_4829.jpeg" alt="A New Family Member" loading="lazy">
+                      </div>
+                    
+                    <div class="post-card-content">
+                      <h2 class="font-semibold text-lg">A New Family Member</h2>
+                      
+                      <div class="post-meta flex justify-between items-center">
+                        <time class="post-date">2025-09-15</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">life archive</span>
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            
+              <article class="post-card-wrapper animate__animated animate__fadeIn" 
+                       style="animation-delay: 0.4s;">
+                <div class="post-card">
+                  <a href="/posts/0001_homepage/" class="block">
+                    
+                      <div class="image-container">
+                        <img src="/img/20250819131344.jpeg" alt="Building Homepages with GenAI" loading="lazy">
+                      </div>
+                    
+                    <div class="post-card-content">
+                      <h2 class="font-semibold text-lg">Building Homepages with GenAI</h2>
+                      
+                      <div class="post-meta flex justify-between items-center">
+                        <time class="post-date">2025-08-19</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">learning</span>
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            
+              <article class="post-card-wrapper animate__animated animate__fadeIn" 
+                       style="animation-delay: 0.5s;">
+                <div class="post-card">
+                  <a href="/posts/0000_test/" class="block">
+                    
+                      <div class="image-container">
+                        <img src="/img/miside.jpeg" alt="Test" loading="lazy">
+                      </div>
+                    
+                    <div class="post-card-content">
+                      <h2 class="font-semibold text-lg">Test</h2>
+                      
+                      <div class="post-meta flex justify-between items-center">
+                        <time class="post-date">2025-01-01</time>
+                        
+                        
+                          <div class="post-categories flex gap-1 flex-wrap justify-end max-w-[60%]">
+                             
+                              <span class="category-pill">test</span>
+                            
+                            
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </article>
+            
+          </div>
+        </div>
+        
+        
+        <div class="scroll-buttons">
+          <button class="scroll-button scroll-left" data-target="scroll-2025">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="scroll-button scroll-right" data-target="scroll-2025">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
     
-    document.addEventListener('DOMContentLoaded', function() {
-      const scrollContainers = document.querySelectorAll('.year-posts-scroll');
+    
+    <script>
       
-      scrollContainers.forEach(container => {
-        let isDown = false;
-        let startX;
-        let scrollLeft;
-
-        container.addEventListener('mousedown', (e) => {
-          isDown = true;
-          container.style.cursor = 'grabbing';
-          startX = e.pageX - container.offsetLeft;
-          scrollLeft = container.scrollLeft;
+      document.addEventListener('DOMContentLoaded', function() {
+        const scrollContainers = document.querySelectorAll('.year-posts-scroll');
+        
+        
+        scrollContainers.forEach(container => {
+          let isDown = false;
+          let startX;
+          let scrollLeft;
+    
+          container.addEventListener('mousedown', (e) => {
+            isDown = true;
+            container.style.cursor = 'grabbing';
+            startX = e.pageX - container.offsetLeft;
+            scrollLeft = container.scrollLeft;
+          });
+    
+          container.addEventListener('mouseleave', () => {
+            isDown = false;
+            container.style.cursor = 'grab';
+          });
+    
+          container.addEventListener('mouseup', () => {
+            isDown = false;
+            container.style.cursor = 'grab';
+          });
+    
+          container.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - container.offsetLeft;
+            const walk = (x - startX) * 2;
+            container.scrollLeft = scrollLeft - walk;
+          });
         });
-
-        container.addEventListener('mouseleave', () => {
-          isDown = false;
-          container.style.cursor = 'grab';
+        
+        
+        document.querySelectorAll('.scroll-button').forEach(button => {
+          button.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-target');
+            const container = document.getElementById(targetId);
+            if (!container) return;
+            
+            const cardWidth = 325; 
+            const gap = 16; 
+            const scrollAmount = cardWidth + gap;
+            
+            if (this.classList.contains('scroll-left')) {
+              container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+              container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+          });
         });
-
-        container.addEventListener('mouseup', () => {
-          isDown = false;
-          container.style.cursor = 'grab';
-        });
-
-        container.addEventListener('mousemove', (e) => {
-          if (!isDown) return;
-          e.preventDefault();
-          const x = e.pageX - container.offsetLeft;
-          const walk = (x - startX) * 2;
-          container.scrollLeft = scrollLeft - walk;
+        
+        
+        scrollContainers.forEach(container => {
+          let startX = 0;
+          let scrollLeft = 0;
+          
+          container.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].pageX - container.offsetLeft;
+            scrollLeft = container.scrollLeft;
+          });
+          
+          container.addEventListener('touchmove', (e) => {
+            if (!e.touches[0]) return;
+            e.preventDefault();
+            const x = e.touches[0].pageX - container.offsetLeft;
+            const walk = (x - startX) * 2;
+            container.scrollLeft = scrollLeft - walk;
+          });
         });
       });
-    });
-  </script>
+    </script>
 
         
       </main><footer id="site-footer" class="py-10 print:hidden">
@@ -1048,7 +1194,7 @@
     
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
           &copy;
-          2025
+          2026
           Ziqian Wei
       </p>
     

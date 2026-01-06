@@ -3,24 +3,362 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://wei-ziqian.github.io/categories/archive/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <loc>https://wei-ziqian.github.io/categories/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/categories/archive/"
+      href="https://wei-ziqian.github.io/zh-cn/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://wei-ziqian.github.io/categories/archive/"
+      href="https://wei-ziqian.github.io/categories/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/cv/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/cv/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/cv/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/categories/cv/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/cv/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/cv/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/cv/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/posts/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/posts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/posts/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/publication/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/categories/publications/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/pub/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/pub/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/pub/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/categories/reading/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/categories/reading/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/categories/reading/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/reading/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/reading/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/reading/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/posts/0007_the_house_murders-copy/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0007_the_house_murders-copy/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/posts/0007_the_house_murders-copy/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/categories/life-archive/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/categories/life-archive/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/categories/life-archive/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/posts/0006_jan2026/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0006_jan2026/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/posts/0006_jan2026/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/tbd/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/tbd/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/tbd/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/course/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/course/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/course/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/eduhk/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/eduhk/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/eduhk/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/categories/learning/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/categories/learning/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/categories/learning/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/learning/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/learning/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/learning/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/posts/0005_the_1st_semester/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0005_the_1st_semester/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/posts/0005_the_1st_semester/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/categories/research/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/categories/research/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/categories/research/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/tags/research/</loc>
+    <lastmod>2025-12-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/tags/research/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/tags/research/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/posts/0004_2025nov_dec/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0004_2025nov_dec/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/posts/0004_2025nov_dec/"
     />
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/tags/archive/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,7 +374,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/tags/bblythe/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -51,40 +389,8 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/categories/blog/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/categories/blog/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/categories/blog/"
-    />
-  </url>
-  <url>
-    <loc>https://wei-ziqian.github.io/categories/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/categories/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/categories/"
-    />
-  </url>
-  <url>
     <loc>https://wei-ziqian.github.io/tags/game/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -99,24 +405,8 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/posts/0001/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/posts/0001/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/posts/0001/"
-    />
-  </url>
-  <url>
     <loc>https://wei-ziqian.github.io/tags/livehouse/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -132,7 +422,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/tags/movie/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -148,7 +438,7 @@
   </url>
   <url>
     <loc>https://wei-ziqian.github.io/tags/photograph/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -163,40 +453,8 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/categories/post/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/categories/post/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/categories/post/"
-    />
-  </url>
-  <url>
-    <loc>https://wei-ziqian.github.io/posts/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/posts/"
-    />
-  </url>
-  <url>
     <loc>https://wei-ziqian.github.io/tags/profile/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -211,40 +469,8 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/tags/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/tags/"
-    />
-  </url>
-  <url>
-    <loc>https://wei-ziqian.github.io/categories/thoguhts/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/categories/thoguhts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://wei-ziqian.github.io/categories/thoguhts/"
-    />
-  </url>
-  <url>
     <loc>https://wei-ziqian.github.io/tags/thoughts/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -259,19 +485,35 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/</loc>
-    <lastmod>2025-09-23T00:00:00+00:00</lastmod>
+    <loc>https://wei-ziqian.github.io/posts/0003_2025oct/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0003_2025oct/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://wei-ziqian.github.io/"
+      href="https://wei-ziqian.github.io/posts/0003_2025oct/"
+    />
+  </url>
+  <url>
+    <loc>https://wei-ziqian.github.io/posts/0002_2025sep/</loc>
+    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-CN"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0002_2025sep/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://wei-ziqian.github.io/posts/0002_2025sep/"
     />
   </url>
   <url>
@@ -291,19 +533,19 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/posts/0000/</loc>
+    <loc>https://wei-ziqian.github.io/posts/0001_homepage/</loc>
     <lastmod>2025-08-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/posts/0000/"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0001_homepage/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://wei-ziqian.github.io/posts/0000/"
+      href="https://wei-ziqian.github.io/posts/0001_homepage/"
     />
   </url>
   <url>
@@ -339,69 +581,51 @@
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/tags/cv/</loc>
-    <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+    <loc>https://wei-ziqian.github.io/categories/test/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/tags/cv/"
+      href="https://wei-ziqian.github.io/zh-cn/categories/test/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://wei-ziqian.github.io/tags/cv/"
+      href="https://wei-ziqian.github.io/categories/test/"
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/tags/publication/</loc>
-    <lastmod>2025-07-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wei-ziqian.github.io/pub/</loc>
-    <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+    <loc>https://wei-ziqian.github.io/posts/0000_test/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/pub/"
+      href="https://wei-ziqian.github.io/zh-cn/posts/0000_test/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://wei-ziqian.github.io/pub/"
+      href="https://wei-ziqian.github.io/posts/0000_test/"
     />
   </url>
   <url>
-    <loc>https://wei-ziqian.github.io/cv/</loc>
-    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
+    <loc>https://wei-ziqian.github.io/tags/test/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://wei-ziqian.github.io/zh-cn/cv/"
+      href="https://wei-ziqian.github.io/zh-cn/tags/test/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://wei-ziqian.github.io/cv/"
+      href="https://wei-ziqian.github.io/tags/test/"
     />
-  </url>
-  <url>
-    <loc>https://wei-ziqian.github.io/categories/cv/</loc>
-    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wei-ziqian.github.io/categories/publication/</loc>
-    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

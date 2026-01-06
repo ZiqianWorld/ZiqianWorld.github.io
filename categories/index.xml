@@ -6,53 +6,13 @@
     <description>Recent content in Categories on ZIQIAN WEI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Ziqian Wei</copyright>
-    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Archive</title>
-      <link>https://wei-ziqian.github.io/categories/archive/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/categories/archive/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://wei-ziqian.github.io/categories/blog/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/categories/blog/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Post</title>
-      <link>https://wei-ziqian.github.io/categories/post/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/categories/post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Thoguhts</title>
-      <link>https://wei-ziqian.github.io/categories/thoguhts/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wei-ziqian.github.io/categories/thoguhts/</guid>
-      <description></description>
-      
-    </item>
+    <copyright>© 2026 Ziqian Wei</copyright>
+    <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cv</title>
       <link>https://wei-ziqian.github.io/categories/cv/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/categories/cv/</guid>
       <description></description>
@@ -60,11 +20,61 @@
     </item>
     
     <item>
-      <title>Publication</title>
-      <link>https://wei-ziqian.github.io/categories/publication/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <title>Publications</title>
+      <link>https://wei-ziqian.github.io/categories/publications/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://wei-ziqian.github.io/categories/publication/</guid>
+      <guid>https://wei-ziqian.github.io/categories/publications/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>https://wei-ziqian.github.io/categories/reading/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/reading/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Life Archive</title>
+      <link>https://wei-ziqian.github.io/categories/life-archive/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/life-archive/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://wei-ziqian.github.io/categories/learning/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://wei-ziqian.github.io/categories/research/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/research/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://wei-ziqian.github.io/categories/test/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/categories/test/</guid>
       <description></description>
       
     </item>

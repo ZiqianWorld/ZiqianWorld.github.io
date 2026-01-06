@@ -6,15 +6,45 @@
     <description>Recent content in Categories on ZIQIAN WEI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <copyright>© 2025 韦子谦</copyright>
-    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 韦子谦</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wei-ziqian.github.io/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Archive</title>
-      <link>https://wei-ziqian.github.io/zh-cn/categories/archive/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <title>Life Archive</title>
+      <link>https://wei-ziqian.github.io/zh-cn/categories/life-archive/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://wei-ziqian.github.io/zh-cn/categories/archive/</guid>
+      <guid>https://wei-ziqian.github.io/zh-cn/categories/life-archive/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>https://wei-ziqian.github.io/zh-cn/categories/reading/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/zh-cn/categories/reading/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://wei-ziqian.github.io/zh-cn/categories/learning/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/zh-cn/categories/learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://wei-ziqian.github.io/zh-cn/categories/research/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wei-ziqian.github.io/zh-cn/categories/research/</guid>
       <description></description>
       
     </item>
@@ -22,7 +52,7 @@
     <item>
       <title>Blog</title>
       <link>https://wei-ziqian.github.io/zh-cn/categories/blog/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/zh-cn/categories/blog/</guid>
       <description></description>
@@ -32,7 +62,7 @@
     <item>
       <title>Post</title>
       <link>https://wei-ziqian.github.io/zh-cn/categories/post/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://wei-ziqian.github.io/zh-cn/categories/post/</guid>
       <description></description>
@@ -40,11 +70,11 @@
     </item>
     
     <item>
-      <title>Thoguhts</title>
-      <link>https://wei-ziqian.github.io/zh-cn/categories/thoguhts/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <title>Test</title>
+      <link>https://wei-ziqian.github.io/zh-cn/categories/test/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://wei-ziqian.github.io/zh-cn/categories/thoguhts/</guid>
+      <guid>https://wei-ziqian.github.io/zh-cn/categories/test/</guid>
       <description></description>
       
     </item>
