@@ -810,11 +810,11 @@
                   <a href="/posts/0006_jan2026/" class="block">
                     
                       <div class="image-container">
-                        <img src="/img/IMG_7148.jpeg" alt="One can imagine Sisyphus happy" loading="lazy">
+                        <img src="/img/IMG_7148.jpeg" alt="One Can Imagine Sisyphus Happy" loading="lazy">
                       </div>
                     
                     <div class="post-card-content">
-                      <h2 class="font-semibold text-lg">One can imagine Sisyphus happy</h2>
+                      <h2 class="font-semibold text-lg">One Can Imagine Sisyphus Happy</h2>
                       
                       <div class="post-meta flex justify-between items-center">
                         <time class="post-date">2026-01-03</time>
@@ -1076,77 +1076,141 @@
     
     
     <script>
-      
       document.addEventListener('DOMContentLoaded', function() {
         const scrollContainers = document.querySelectorAll('.year-posts-scroll');
-        
         
         scrollContainers.forEach(container => {
           let isDown = false;
           let startX;
           let scrollLeft;
+          let velocity = 0;
+          let lastX = 0;
+          let animationFrame;
+          let isScrolling = false;
+    
+          
+          function momentumScroll() {
+            if (Math.abs(velocity) > 0.5) {
+              container.scrollLeft -= velocity;
+              velocity *= 0.95; 
+              animationFrame = requestAnimationFrame(momentumScroll);
+            } else {
+              isScrolling = false;
+              cancelAnimationFrame(animationFrame);
+            }
+          }
     
           container.addEventListener('mousedown', (e) => {
             isDown = true;
             container.style.cursor = 'grabbing';
             startX = e.pageX - container.offsetLeft;
             scrollLeft = container.scrollLeft;
+            velocity = 0;
+            lastX = startX;
+            isScrolling = false;
+            cancelAnimationFrame(animationFrame);
           });
     
           container.addEventListener('mouseleave', () => {
             isDown = false;
             container.style.cursor = 'grab';
+            if (Math.abs(velocity) > 1) {
+              isScrolling = true;
+              momentumScroll();
+            }
           });
     
           container.addEventListener('mouseup', () => {
             isDown = false;
             container.style.cursor = 'grab';
+            if (Math.abs(velocity) > 1) {
+              isScrolling = true;
+              momentumScroll();
+            }
           });
     
           container.addEventListener('mousemove', (e) => {
             if (!isDown) return;
             e.preventDefault();
             const x = e.pageX - container.offsetLeft;
-            const walk = (x - startX) * 2;
+            const walk = (x - startX) * 1.8; 
             container.scrollLeft = scrollLeft - walk;
-          });
-        });
-        
-        
-        document.querySelectorAll('.scroll-button').forEach(button => {
-          button.addEventListener('click', function() {
-            const targetId = this.getAttribute('data-target');
-            const container = document.getElementById(targetId);
-            if (!container) return;
             
-            const cardWidth = 325; 
-            const gap = 16; 
-            const scrollAmount = cardWidth + gap;
             
-            if (this.classList.contains('scroll-left')) {
-              container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-            } else {
-              container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-            }
+            velocity = (x - lastX) * 0.8;
+            lastX = x;
           });
-        });
-        
-        
-        scrollContainers.forEach(container => {
-          let startX = 0;
-          let scrollLeft = 0;
+    
           
+          let touchStartX = 0;
+          let touchScrollLeft = 0;
+          let touchVelocity = 0;
+          let lastTouchX = 0;
+          let touchTime = 0;
+    
           container.addEventListener('touchstart', (e) => {
-            startX = e.touches[0].pageX - container.offsetLeft;
-            scrollLeft = container.scrollLeft;
-          });
-          
+            if (e.touches.length > 1) return; 
+            touchStartX = e.touches[0].pageX - container.offsetLeft;
+            touchScrollLeft = container.scrollLeft;
+            touchVelocity = 0;
+            lastTouchX = touchStartX;
+            touchTime = Date.now();
+            isScrolling = false;
+            cancelAnimationFrame(animationFrame);
+            e.preventDefault(); 
+          }, { passive: false });
+    
           container.addEventListener('touchmove', (e) => {
-            if (!e.touches[0]) return;
+            if (e.touches.length > 1) return;
             e.preventDefault();
             const x = e.touches[0].pageX - container.offsetLeft;
-            const walk = (x - startX) * 2;
-            container.scrollLeft = scrollLeft - walk;
+            const walk = (x - touchStartX) * 1.5; 
+            container.scrollLeft = touchScrollLeft - walk;
+            
+            
+            const now = Date.now();
+            const deltaTime = now - touchTime;
+            if (deltaTime > 0) {
+              touchVelocity = (x - lastTouchX) / deltaTime * 16;
+            }
+            lastTouchX = x;
+            touchTime = now;
+          }, { passive: false });
+    
+          container.addEventListener('touchend', (e) => {
+            if (Math.abs(touchVelocity) > 0.2) {
+              isScrolling = true;
+              velocity = touchVelocity * 30; 
+              momentumScroll();
+            }
+          });
+    
+          
+          document.querySelectorAll('.scroll-button').forEach(button => {
+            button.addEventListener('click', function() {
+              const targetId = this.getAttribute('data-target');
+              const container = document.getElementById(targetId);
+              if (!container) return;
+              
+              const isMobile = window.innerWidth <= 768;
+              const cardWidth = isMobile ? 280 : 325;
+              const gap = isMobile ? 12 : 16;
+              const scrollAmount = cardWidth + gap;
+              
+              if (this.classList.contains('scroll-left')) {
+                container.scrollBy({ 
+                  left: -scrollAmount, 
+                  behavior: 'smooth',
+                  duration: 300 
+                });
+              } else {
+                container.scrollBy({ 
+                  left: scrollAmount, 
+                  behavior: 'smooth',
+                  duration: 300 
+                });
+              }
+            });
           });
         });
       });
