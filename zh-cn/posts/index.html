@@ -538,15 +538,6 @@
       }
       
        
-      @media (max-width: 768px) {
-        .year-posts-container {
-          margin-right: calc(-50vw + 50%);
-          width: calc(100% + 50vw - 50% + 1rem);
-          padding-right: 0;
-        }
-      }
-      
-       
       h1.mt-0.mb-6.text-4xl.font-extrabold {
         margin-bottom: 2.5rem !important;  
       }
@@ -650,7 +641,7 @@
       }
       
       .post-card-content {
-        padding: 1.2rem 1rem 1rem 1rem;  
+        padding: 1rem 1rem 1rem 1rem;  
         border-top: 1px solid var(--card-border-color, #e5e7eb);
         background: var(--card-content-bg, #ffffff);
         flex-grow: 1;
@@ -674,24 +665,12 @@
       }
       
       .post-card:hover .post-card-content {
-        background-color: rgba(75, 85, 99, 0.1);  
+        background-color: rgba(0, 0, 0, 0.1);  
         transition: all 0.1s ease;
       }
 
-      .post-card:hover .post-card-content h2 {
-        transform: scale(1);  
-        transform-origin: left top;
-      }
-
-      .post-card:hover .post-date {
-        color: #1f2937;  
-        transform: scale(1);
-      }
-
-      .post-card:hover .category-pill,
-      .post-card:hover .tag-pill {
-        transform: scale(1);  
-        background-color: rgba(0, 0, 0, 0.08);  
+      .post-card:hover .category-pill {
+        background-color: rgba(0, 0, 0, 0.1);  
       }
 
       .post-meta {
@@ -707,27 +686,24 @@
       
       .post-date {
         font-size: 5rem;  
-        color: var(--secondary-text, #6b7280);
+        color: var(--secondary-text, rgba(107, 114, 128));
         font-weight: 500;  
       }
       
        
        
-      .category-pill, .tag-pill {
+      .category-pill {
         display: inline-block;
         padding: 0.25rem 0.4rem;  
         font-size: 0.6rem;  
         font-weight: 500;
-        border-radius: 9999px;
+        border-radius: 0.75rem;
         white-space: nowrap;
         flex-shrink: 0;
         line-height: 1.2;  
-      }
-
-      .category-pill {
-        background-color: rgba(209, 213, 219, 0.15);
+        background-color: white;
         color: rgba(107, 114, 128);
-        border: 1px solid rgba(209, 213, 219, 0.4);
+        border:  1.5px solid var(--card-border-color, black);
       }
 
        
@@ -774,21 +750,6 @@
         align-items: center;
       }
       
-       
-      .post-tags {
-        font-size: 1rem;  
-        color: var(--secondary-text, #6b7280);
-        display: block;
-        min-width: 0;                
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      .post-tags a {
-        color: var(--secondary-text, #6b7280);
-        text-decoration: none;
-      }
-      
       .post-card a {
         display: contents;
         text-decoration: none;
@@ -797,6 +758,38 @@
       
       .post-card {
         cursor: pointer;   
+      }
+
+       
+      @media (max-width: 768px) {
+        .year-posts-container {
+          margin-right: calc(-50vw + 50%);
+          width: calc(100% + 50vw - 50% + 1rem);
+          padding-right: 0;
+        }
+        
+         
+        .scroll-buttons {
+          display: none;
+        }
+        
+         
+        .post-card:hover {
+          transform: none;
+          box-shadow: none;
+        }
+        
+        .post-card:hover img {
+          transform: none;
+        }
+        
+        .post-card:hover .post-card-content {
+          background-color: var(--card-content-bg, #ffffff) !important;
+        }
+        
+        .post-card:hover .category-pill {
+          background-color: white !important;
+        }
       }
     </style>
     
